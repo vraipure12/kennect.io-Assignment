@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Comparison Sorting Algorithms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">Comparison Sorting Algorithms</div>
+
+  <div class="top-buttons">
+    <button onclick="generateArray()">Randomize Array</button>
+    <button onclick="startSort('insertion')">Insertion Sort</button>
+    <button onclick="startSort('selection')">Selection Sort</button>
+    <button onclick="startSort('bubble')">Bubble Sort</button>
+    <button onclick="startSort('quick')">Quick Sort</button>
+    <button onclick="startSort('merge')">Merge Sort</button>
+    <button onclick="startSort('shell')">Shell Sort</button>
+    <button onclick="changeSize()">Change Size</button>
+  </div>
+
+  <canvas id="canvas" width="1000" height="500"></canvas>
+
+  <div class="bottom-controls">
+    <button onclick="skipBack()">Skip Back</button>
+    <button onclick="stepBack()">Step Back</button>
+    <button onclick="pauseSort()" id="pauseBtn">Pause</button>
+    <button onclick="stepForward()">Step Forward</button>
+    <button onclick="skipForward()">Skip Forward</button>
+
+    <label>Animation Speed</label>
+    <input type="range" min="1" max="100" value="50" id="speedSlider">
+
+    <label>w:</label>
+    <input type="number" id="canvasWidth" value="1000">
+    <label>h:</label>
+    <input type="number" id="canvasHeight" value="500">
+    <button onclick="changeCanvasSize()">Change Canvas Size</button>
+  </div>
+
+  <footer>Algorithm Visualizations</footer>
+  <script src="script.js"></script>
+</body>
+</html>

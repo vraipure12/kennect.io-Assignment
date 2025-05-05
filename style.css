@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.header {
+  background-color: #005c2a;
+  color: yellow;
+  font-size: 28px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.top-buttons {
+  background-color: #e0f0e0;
+  padding: 10px;
+}
+
+.top-buttons button,
+.bottom-controls button {
+  margin: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.bottom-controls {
+  background-color: #e0f0e0;
+  padding: 10px;
+}
+
+footer {
+  background-color: #005c2a;
+  color: yellow;
+  padding: 10px;
+  font-weight: bold;
+}
